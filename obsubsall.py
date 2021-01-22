@@ -9,6 +9,9 @@ import secrets
 # installed
 import websocket
 
+from deribit import DeribitAPIAccessScope, DeribitExchangeVersion
+from user import Client_Id, Client_Secret
+
 
 class UserWebsocketEngine:
     def __init__(self, client_Id, scope, exchange_version):
@@ -218,10 +221,11 @@ class UserWebsocketEngine:
 
 if __name__ == "__main__":
     # Local Testing
-    Client_Id = "XBagIoFw"
-    Client_Secret = "BtsbXxYRbpct7ZB44BEidFPlhICBoDAOQadZ31QD_mY"
-    Client_Id = "Ac5nOoVh"
-    Client_Secret = "hrOkDCReLk00b70fBgZHolzbakzF5iGg7I4_E9hlYIc"
+    # Client_Id = "XBagIoFw"
+    # Client_Secret = "BtsbXxYRbpct7ZB44BEidFPlhICBoDAOQadZ31QD_mY"
+    #
+    # Client_Id = "Ac5nOoVh"
+    # Client_Secret = "hrOkDCReLk00b70fBgZHolzbakzF5iGg7I4_E9hlYIc"
 
     # Your "scope" variable must be 'read-only' or 'read-write'.
     scope = 'read-only'

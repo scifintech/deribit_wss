@@ -8,6 +8,7 @@ import secrets
 import websocket
 
 from deribit import DeribitAPIAccessScope, DeribitExchangeVersion
+from user import Client_Secret, Client_Id
 
 
 class UserWebsocketEngine:
@@ -166,8 +167,8 @@ class UserWebsocketEngine:
 
 if __name__ == "__main__":
     # Local Testing
-    Client_Id = "XBagIoFw"
-    Client_Secret = "BtsbXxYRbpct7ZB44BEidFPlhICBoDAOQadZ31QD_mY"
+    # Client_Id = "XBagIoFw"
+    # Client_Secret = "BtsbXxYRbpct7ZB44BEidFPlhICBoDAOQadZ31QD_mY"
 
     # Your "scope" variable must be 'read-only' or 'read-write'.
     scope = 'read-only'
