@@ -13,5 +13,3 @@ Testnet exchange = test.deribit.com
 Client_Id = "mmMgHOM6"
 # This is your "Client Secret" and must be a string type.
 Client_Secret = "lVpOFyThTkjDxCjidd38i8a7HBiAuHy26iM2D0gU5ng"
-
-
